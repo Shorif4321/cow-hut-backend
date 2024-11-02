@@ -5,7 +5,7 @@ import config from './config'
 async function bootstrap() {
   try {
     await mongoose.connect(config.database_url as string)
-    console.log('daatabase connected successfully')
+    console.log('Database connected successfully')
 
     app.listen(config.path, () => {
       console.log(`Cow hut bakend runing on port ${config.path}`)

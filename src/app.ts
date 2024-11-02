@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(urlencoded({ extended: true }))
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Cow-hut working successfully')
+  res.send('Cow-hut working Successfully')
 })
 
 export default app
