@@ -1,20 +1,20 @@
-import { Model } from 'mongoose'
+import { Model } from 'mongoose';
 
 export type IUser = {
-  password: string
-  role: 'seller' | 'buyer'
+  password: string;
+  role: 'seller' | 'buyer';
   name: {
     firstName: {
-      type: string
-    }
+      type: string;
+    };
     lastName: {
-      type: string
-    }
-  }
-  phoneNumber: string
-  address: string
-  budget: number
-  income: number
-}
+      type: string;
+    };
+  };
+  phoneNumber: string;
+  address: string;
+  budget: number;
+  income: number;
+};
 
-export type UserModel = Model<IUser, Record<string, unknown>>
+export type UserModel = Model<IUser, Record<string, unknown>>;

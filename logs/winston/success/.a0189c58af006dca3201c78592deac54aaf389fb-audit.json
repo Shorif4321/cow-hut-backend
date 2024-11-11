@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\.a0189c58af006dca3201c78592deac54aaf389fb-audit.json",
+    "files": [
+        {
+            "date": 1730697889428,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-04-11-11-success.log",
+            "hash": "5a9e8e08811665ea9e99a73e999f01fdb995cf1c7cef97e9722ba10131ef40ff"
+        },
+        {
+            "date": 1730700912799,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-04-11-12-success.log",
+            "hash": "4fda86b9b4d5dadf6b3a9ee2d870025d70cca6bea7f8a83161889faa318b245f"
+        },
+        {
+            "date": 1730705146215,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-04-11-13-success.log",
+            "hash": "e1cd5ef6c8e066f4c964dca1bc934192aaaf18fec1295f05ebd460a2025f75af"
+        },
+        {
+            "date": 1730957807331,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-07-11-11-success.log",
+            "hash": "c3f609e58053fd0f8e14a7afc116e64d0ed349742b51cd8a7bc77e50eb2719d0"
+        },
+        {
+            "date": 1730959633374,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-07-11-12-success.log",
+            "hash": "4acad3bfeeff9cd745276204e93e67396365daf51b1229fb145615a467d95aa2"
+        },
+        {
+            "date": 1731157577439,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-09-11-19-success.log",
+            "hash": "32eb22f01298879e6787b6b5b0a84313384da650100f4c0cabee77de6229e296"
+        },
+        {
+            "date": 1731161284274,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-09-11-20-success.log",
+            "hash": "ac800c621485c6f03f0af60ebbac53bc7d200095206f940eab9919bddb191d47"
+        },
+        {
+            "date": 1731221281206,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-10-11-12-success.log",
+            "hash": "942e7e2b32e287f6189c9ca5b40d652bc640ddbe85b18c881ee9272d808b118e"
+        },
+        {
+            "date": 1731302390872,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-11-11-11-success.log",
+            "hash": "8c0c78cafda47a39c779936c5c4d42b9a6c964b5dd2588c0049f3137aecdd0d3"
+        },
+        {
+            "date": 1731304892654,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-11-11-12-success.log",
+            "hash": "e1ccb751e1187bcd49fd1da47d82bb6cbcfd7709ab1132ca819f4b2ed2aa33e1"
+        },
+        {
+            "date": 1731308400496,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-11-11-13-success.log",
+            "hash": "ad44e193ff29d637d02e877d5f059400b2b77882de21ad5362f4b08ceb070359"
+        },
+        {
+            "date": 1731312342009,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\CH-2024-11-11-14-success.log",
+            "hash": "1a4a13b09b1bcdc190cbe21ebf4bbd4030068b8bd9258e068216359249f0fe16"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\.4f166088f49526202305dcbe380db00e7e53e8da-audit.json",
+    "files": [
+        {
+            "date": 1730643533807,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-03-11-20-success.log",
+            "hash": "c41ee616ccd25c1142ca7873a6ebf7cdc73ab95b02d2e4391f62c544ba3203d8"
+        },
+        {
+            "date": 1730646192712,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-03-11-21-success.log",
+            "hash": "3a239f49b53651f44fa0d1cf328143a83c54689af0a1af9bc8d80fdb29a18928"
+        },
+        {
+            "date": 1730696058094,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-04-11-10-success.log",
+            "hash": "04ef148b120c7d3011de4cd55ba6db6e30e284f5591d16cfc1a49a9244bdf3d0"
+        },
+        {
+            "date": 1730697889434,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-04-11-11-success.log",
+            "hash": "2a2a66af1b571fb01f48e37c4204d03eb43d66daf7cbb842734c87e2ed864302"
+        },
+        {
+            "date": 1730700912804,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-04-11-12-success.log",
+            "hash": "ce348623050b0ab01b57e9103d49e078c21df65f630639b003674cfd8576c97f"
+        },
+        {
+            "date": 1730705146219,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-04-11-13-success.log",
+            "hash": "e2ec4a8f22e52113549d5c0e8406bc128e3a2aa91a60aef8383221397448b70a"
+        },
+        {
+            "date": 1730957807361,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-07-11-11-success.log",
+            "hash": "19a29899d47ea00e2e57bebd5d8ab7df5acf198906671c11d0ab1bb06c61fa96"
+        },
+        {
+            "date": 1730959633379,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-07-11-12-success.log",
+            "hash": "74191bf19b7e1ccd4852156de3a19c405e5e3781fe556f04a37ddf95be1cdaed"
+        },
+        {
+            "date": 1731157577482,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-09-11-19-success.log",
+            "hash": "5ed60718477c80fb51fc58f86b11103b2e24ab2d0633aaf55c73f4a590bb8750"
+        },
+        {
+            "date": 1731161284279,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-09-11-20-success.log",
+            "hash": "14bf8c347c0bf395ab73cdcbca399f7d9aa168782cded617df9d06171554bbdd"
+        },
+        {
+            "date": 1731221281222,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-10-11-12-success.log",
+            "hash": "1dd31ca39050156ace0c5e234185e128890dc353831b171247e6cc5864a15e8b"
+        },
+        {
+            "date": 1731302390886,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-11-11-11-success.log",
+            "hash": "b590532edc2fd857be76dea5aedca24944e8c77bfac2c0047c5742d1097c1b76"
+        },
+        {
+            "date": 1731304892659,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-11-11-12-success.log",
+            "hash": "bbcf33996b0a77811d22651bfc5e4d1ef5f847bc1228f5aca8d2818c31578be8"
+        },
+        {
+            "date": 1731308438453,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-11-11-13-success.log",
+            "hash": "b42f367c58bcadf85dedadddd2ed6dba2bbeeb8be2283f5ed5dd1fce7e98ab70"
+        },
+        {
+            "date": 1731312342017,
+            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\error\\DCH-2024-11-11-14-success.log",
+            "hash": "bbfccbdaafdc0a1e3c9349f90329dc6ccbccfc133eb2bfc52009e9b3673440cf"
+        }
+    ],
+    "hashType": "sha256"
+}

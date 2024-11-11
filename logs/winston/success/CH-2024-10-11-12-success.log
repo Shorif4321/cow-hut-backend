@@ -1,0 +1,48 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:48:04.010Z'
+}
+{
+  message: 'Cow hut bakend runing on port 5000',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:48:04.026Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:50:34.177Z'
+}
+{
+  message: 'Cow hut bakend runing on port 5000',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:50:34.196Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:51:08.862Z'
+}
+{
+  message: 'Cow hut bakend runing on port 5000',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:51:08.880Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:51:26.148Z'
+}
+{
+  message: 'Cow hut bakend runing on port 5000',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-10T06:51:26.161Z'
+}

@@ -1,6 +1,6 @@
-import { model, Schema } from 'mongoose'
-import { IUser, UserModel } from './user.interface'
-import { role } from './user.contant'
+import { model, Schema } from 'mongoose';
+import { IUser, UserModel } from './user.interface';
+import { role } from './user.contant';
 
 export const UserSchema = new Schema<IUser, UserModel>(
   {
@@ -16,7 +16,7 @@ export const UserSchema = new Schema<IUser, UserModel>(
         required: true,
       },
     },
-    phoneNumber: { type: String, required: true },
+    phoneNumber: { type: String, required: true, unique: true },
     address: { type: String, required: true },
     budget: { type: Number, required: true },
     income: {
@@ -30,6 +30,6 @@ export const UserSchema = new Schema<IUser, UserModel>(
       virtuals: true,
     },
   },
-)
+);
 
-export const User = model<IUser, UserModel>('User', UserSchema)
+export const User = model<IUser, UserModel>('User', UserSchema);

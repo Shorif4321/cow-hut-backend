@@ -1,20 +1,33 @@
-import express, { Application, Request, Response, urlencoded } from 'express'
-const app: Application = express()
-import cors from 'cors'
-import usersRouter from './app/modules/user/user.route'
+import express, {
+  Application,
+  NextFunction,
+  Request,
+  Response,
+  urlencoded,
+} from 'express';
+const app: Application = express();
+import cors from 'cors';
+import usersRouter from './app/modules/user/user.route';
+import globalErrorHandelers from './app/middlewares/globalErrorHandelers';
 
 // middlewares
-app.use(cors())
+app.use(cors());
 
 // parser
-app.use(express.json())
-app.use(urlencoded({ extended: true }))
+app.use(express.json());
+app.use(urlencoded({ extended: true }));
 
 // application route
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', usersRouter);
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Cow-hut working Successfully')
-})
+//global error handlelar
+app.use(globalErrorHandelers);
 
-export default app
+// testing
+app.get('/', (req: Request, res: Response, next: NextFunction) => {
+  // throw new ApiError(400, 'Something went wrong');
+  next('api eror from api, line 38');
+  // next();
+});
+
+export default app;
