@@ -1,0 +1,12 @@
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-21T07:51:04.814Z'
+}
+{
+  message: 'Cow hut bakend runing on port 5000',
+  level: 'info',
+  label: 'CH',
+  timestamp: '2024-11-21T07:51:04.833Z'
+}

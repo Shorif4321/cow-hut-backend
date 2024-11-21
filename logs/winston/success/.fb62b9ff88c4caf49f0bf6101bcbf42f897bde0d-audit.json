@@ -1,25 +1,25 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\.fb62b9ff88c4caf49f0bf6101bcbf42f897bde0d-audit.json",
+  "files": [
+    {
+      "date": 1730643533800,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-03-11-20-success.log",
+      "hash": "ebb3f35217c6033491d7d694fee8aa46cdf8a303a838059baff94608dfd39829"
     },
-    "auditLog": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\.fb62b9ff88c4caf49f0bf6101bcbf42f897bde0d-audit.json",
-    "files": [
-        {
-            "date": 1730643533800,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-03-11-20-success.log",
-            "hash": "ebb3f35217c6033491d7d694fee8aa46cdf8a303a838059baff94608dfd39829"
-        },
-        {
-            "date": 1730646192708,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-03-11-21-success.log",
-            "hash": "5f736617d86e062be74f48eed7c59153d26174bbc6ffc803445952c86b15fc08"
-        },
-        {
-            "date": 1730696058066,
-            "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-04-11-10-success.log",
-            "hash": "1ed15ef13c4050ab747c2b40045c83be9612294cd4c8c3176a506d472b7349f2"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1730646192708,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-03-11-21-success.log",
+      "hash": "5f736617d86e062be74f48eed7c59153d26174bbc6ffc803445952c86b15fc08"
+    },
+    {
+      "date": 1730696058066,
+      "name": "D:\\Next 2.0\\3 Be a NoSQL Backend Braniac\\Assignment\\logs\\winston\\success\\DCH-2024-04-11-10-success.log",
+      "hash": "1ed15ef13c4050ab747c2b40045c83be9612294cd4c8c3176a506d472b7349f2"
+    }
+  ],
+  "hashType": "sha256"
 }

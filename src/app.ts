@@ -24,10 +24,10 @@ app.use('/api/v1/users/', usersRouter);
 app.use(globalErrorHandelers);
 
 // testing
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
-  // throw new ApiError(400, 'Something went wrong');
+app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  // Promise.reject(new Error('Unhandle promise Rejection'));
+  throw new Error('some error');
   next('api eror from api, line 38');
-  // next();
 });
 
 export default app;

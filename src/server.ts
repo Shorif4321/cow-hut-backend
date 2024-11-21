@@ -2,6 +2,15 @@ import mongoose from 'mongoose';
 import app from './app';
 import config from './config';
 import { errorLogger, logger } from './shared/logger';
+import { Server } from 'http';
+
+// uncought Exception
+process.on('uncaughtException', error => {
+  errorLogger.error(error);
+  process.exit(1);
+});
+
+let server: Server;
 
 async function bootstrap() {
   try {
@@ -17,3 +26,22 @@ async function bootstrap() {
 }
 
 bootstrap();
+
+process.on('unhandledRejection', error => {
+  if (server) {
+    server.close(() => {
+      errorLogger.error(error);
+      process.exit(1);
+    });
+  } else {
+    process.exit(1);
+  }
+});
+
+//sigterm setup
+process.on('SIGTERM', () => {
+  logger.info('Sigterm is Received');
+  if (server) {
+    server.close();
+  }
+});
